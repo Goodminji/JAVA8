@@ -1,6 +1,8 @@
 # Table of contents
 
-* [JAVA](README.md)
-* [JAVA2](java2.md)
-* [JAVA3](optional.md)
+* [JAVA8](README.md)
+* [Stream](java2.md)
+* [Session](session.md)
+* [optional](optional.md)
+* [JWT](jwt.md)
 

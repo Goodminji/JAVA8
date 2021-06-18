@@ -2,7 +2,7 @@
 description: Optional<>
 ---
 
-# JAVA3
+# optional
 
 1. Optional Null 처리를 할때 사용.
 2. Optional.of  - value 가 null 인경우 예외를 던진다 \( 반드시 값이 필요한 객체인 경우 사용\)
