@@ -5,4 +5,6 @@
 * [Session](session.md)
 * [optional](optional.md)
 * [JWT](jwt.md)
+* [DTO/ENTITY/VO](dto-entity-vo.md)
+* [SOLID](solid.md)
 
