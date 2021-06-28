@@ -36,7 +36,9 @@ public Optional<User> findbyId(Long seq) {
                      new IllegalStateException("존재하지 않는 회원입니다."));
 ```
 
-4. orElse : 옵셔널 객체가 비어있다면 기본값으로 제공할 객체를 지정 
+4. orElse : 옵셔널 객체가 비어있다면 기본값으로 제공할 객체를 지정 \(객체가 값이 있어도, 없어도 생성된다\)
 
 5.orElsethrow : 옵셔널 객체가 비어 있다 예 외 공급자 함수를 통해 예외 발
+
+6. orElseget : 옵셔녈 객체가 값이 없을때만 실행된다.
 
