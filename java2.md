@@ -60,5 +60,5 @@ List<Int[]> pairs = number1.stream()
 
 2\) iterate\(무한 스트림\)
 
-3\) generate는 Supplier&lt;t&gt;를 인수로 받아서 새로운 값을 생
+3\) generate는 Supplier&lt;t&gt;를 인수로 받아서 새로운 값을 생성  
 

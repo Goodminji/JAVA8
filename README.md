@@ -81,9 +81,9 @@ List&lt;Apple&gt; result
 
 7. Supplier&lt;T&gt;는 \(\) -&gt; T 형식의 시그너처를 갖는 수상 메서드 get을 정한다.
 
-* ex\) \(\) -&gt; new Apple\(10\) 객체 생
+* ex\) \(\) -&gt; new Apple\(10\) 객체 생성 
 
 8. IntBinaryOpreator는\(int,int\) -&gt;int 형식으로 추상메서드 applyAsInt 정의한다.
 
-* ex\) \(int a, int b\) -&gt; a\*b  두값 조
+* ex\) \(int a, int b\) -&gt; a\*b  두값 조인 
 
