@@ -67,5 +67,9 @@ ex) meus.stream().filter(Dish::isVegettrain)
 
 2\) iterate\(무한 스트림\)
 
-3\) generate는 Supplier&lt;t&gt;를 인수로 받아서 새로운 값을 생성  
+3\) generate는 Supplier&lt;t&gt;를 인수로 받아서 새로운 값을 생성 
+
+
+
+[https://futurecreator.github.io/2018/08/26/java-8-streams/](https://futurecreator.github.io/2018/08/26/java-8-streams/) 
 
