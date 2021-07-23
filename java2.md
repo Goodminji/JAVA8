@@ -39,8 +39,15 @@ List<Int[]> pairs = number1.stream()
 * allMatch: 스트림의 모든 요소가 주어진 프레디케이트와 일치하는 지를 검사.
 * noneMatch: 주어진 프레디케이트와 일치하는 요소가 없는지 확인.
 * findAny\(\) 현재 스트림에서 임의의 요소를 반환
-* Optional&lt;T&gt;이란 값의 존재나 부재 여부를 표현하는 컨테이너 클래스다. 이것을 이용해서 null확인 관련 버그 피할수 있음.  inpresent\(\)는 Optional 이 값을 포함하면 true, 아니면 false 반환.. ifPresent\(Consumer&lt;T&gt; bolck\)은 값이 있으면 bolck을 실행..T get\(\)은 값이 존재하면 값을 반환 없으면 NoSuchElementException 발생...T orElse\(T other\)는 값이 있으면 값을 반환 값이 없으면 기본값을 반환..                                                      ex\) meus.stream\(\).filter\(Dish::isVegettrain\).findAny\(\).ifpresent\(d -&gt; System.out.println\(d.getName\(\)\);// 값이 잇으면 출력되고 없으면 아무일도 일어 나지 않음.
+* Optional&lt;T&gt;이란 값의 존재나 부재 여부를 표현하는 컨테이너 클래스다. 이것을 이용해서 null확인 관련 버그 피할수 있음.                                                                   -   inpresent\(\)는 Optional 이 값을 포함하면 true, 아니면 false 반환..                      -   ifPresent\(Consumer&lt;T&gt; bolck\)은 값이 있으면 bolck을 실행..                              -   T get\(\)은 값이 존재하면 값을 반환 없으면 NoSuchElementException 발생...      -   T orElse\(T other\)는 값이 있으면 값을 반환 값이 없으면 기본값을 반환..                                                      
 * findFirst\(\) 첫번째 요소 찾기.
+
+```text
+ex) meus.stream().filter(Dish::isVegettrain)
+                  .findAny()
+                   .ifpresent(d -> System.out.println(d.getName());
+// 값이 잇으면 출력되고 없으면 아무일도 일어 나지 않음.
+```
 
 3. 리듀싱 : 모든 스트림 요소를 처리해서 값으로 도출한다. reduce \(최종연산\)
 
